@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/images/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Createx SEO | Case Study</title>
 
@@ -14,7 +14,50 @@
     </style>
   </head>
   <body>
-    <div>Hello from SibFU</div>
+    <header class="header">
+      <div class="container">
+        <nav class="nav header__item">
+          <div class="logo-wrapper nav__item">
+            <a href="#">
+              <img src="/images/logo.svg" alt="CREATEX Logo" class="logo" />
+            </a>
+          </div>
+          <div class="links nav__item">
+            <div class="dropdown">
+              <a class="dropdown__title links__item" href="#">Services</a>
+              <ul class="dropdown__list">
+                <li class="dropdown__item"><a class="links__item" href="#">Select №1</a></li>
+                <li class="dropdown__item"><a class="links__item" href="#">Select №2</a></li>
+                <li class="dropdown__item"><a class="links__item" href="#">Select №3</a></li>
+              </ul>
+            </div>
+            <a class="links__item links__item_active" href="#">Case Studies</a>
+            <a class="links__item" href="#">About Us</a>
+            <a class="links__item" href="#">Blog</a>
+            <a class="links__item" href="#">Contacts</a>
+          </div>
+          <div class="actions nav__item">
+            <button class="button">Talk to a human</button>
+          </div>
+        </nav>
+
+        <div class="link-info header__item">
+          <a href="#" class="link-info__item">
+            <div class="home-icon"></div>
+          </a>
+          <a href="#" class="link-info__item">Case Studies</a>
+          <a href="#" class="link-info__item link-info__item-current"
+            >200% increase in conversion rate for Lovato Company</a
+          >
+        </div>
+        <img
+          class="header__item header__item_title-logo"
+          src="/public/images/header_title_logo.png"
+          alt="ForSale Logo"
+        />
+      </div>
+      <div class="header__item title">200% increase in conversion rate for Lovato Company</div>
+    </header>
     <script type="module" src="/src/index.js"></script>
   </body>
 </html>

@@ -1,0 +1,10 @@
+:root {
+  --home-icon-width: 16px;
+  --home-icon-height: 16px;
+}
+
+.home-icon {
+  width: var(--home-icon-width);
+  height: var(--home-icon-height);
+  background: url('/public/images/home_icon.svg') no-repeat;
+}
