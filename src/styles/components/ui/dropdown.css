@@ -1,12 +1,12 @@
 :root {
-  --dropdown_icon-margin: 8px;
-  --dropdown_icon_width: 16px;
-  --dropdown_icon_height: 16px;
+  --dropdown-icon-margin: 8px;
+  --dropdown-icon-width: 16px;
+  --dropdown-icon-height: 16px;
 }
 
 .dropdown {
   position: relative;
-  padding-right: calc(var(--dropdown_icon-margin) + var(--dropdown_icon_width));
+  padding-right: calc(var(--dropdown-icon-margin) + var(--dropdown-icon-width));
 
   .dropdown__list {
     display: block;
@@ -56,8 +56,8 @@
   content: '';
   cursor: pointer;
   opacity: 0.6;
-  width: var(--dropdown_icon_width);
-  height: var(--dropdown_icon_height);
+  width: var(--dropdown-icon-width);
+  height: var(--dropdown-icon-height);
   background: url('/public/images/arrow.svg');
   position: absolute;
   top: 50%;

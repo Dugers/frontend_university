@@ -1,0 +1,21 @@
+.stats {
+  display: flex;
+  gap: 20px;
+
+  .stats__content {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .stats__title {
+    font-weight: 900;
+    font-size: 32px;
+    color: var(--gray-900);
+  }
+
+  .stats__description {
+    font-size: 20px;
+    color: var(--gray-900);
+  }
+}

@@ -1,4 +1,8 @@
+/* stylelint-disable selector-max-compound-selectors */
+/* stylelint-disable selector-max-combinators */
+/* stylelint-disable selector-max-class */
 .footer {
+  color: var(--color-white);
   background-color: #1e212c;
 
   .footer__main {
