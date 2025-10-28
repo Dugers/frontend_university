@@ -31,3 +31,31 @@
   right: 14px;
   transform: translateY(-50%);
 }
+
+.checkbox input[type='checkbox'] {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ddd;
+  border-radius: 3px;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+
+.checkbox input[type='checkbox']:checked {
+  background-color: var(--color-soft-blue);
+  border-color: var(--color-soft-blue);
+}
+
+.checkbox input[type='checkbox']:checked::before {
+  content: '✓';
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
