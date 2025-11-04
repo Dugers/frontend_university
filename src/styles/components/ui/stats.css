@@ -1,5 +1,6 @@
 .stats {
   display: flex;
+  align-items: center;
   gap: 20px;
 
   .stats__content {
