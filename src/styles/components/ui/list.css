@@ -1,0 +1,19 @@
+:root {
+  --list-marker-icon-width: 16px;
+  --list-marker-icon-height: 16px;
+}
+
+.check-list {
+  li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  li::before {
+    content: '';
+    background: url('/public/images/mark_icon.svg');
+    width: var(--list-marker-icon-width);
+    height: var(--list-marker-icon-height);
+  }
+}

@@ -1,0 +1,60 @@
+:root {
+  --icon-default-width: 16px;
+  --icon-default-height: 16px;
+}
+
+.home-icon {
+  width: var(--icon-default-width);
+  height: var(--icon-default-height);
+  background: url('/public/images/home_icon.svg') no-repeat;
+  background-size: contain;
+}
+
+.facebook-icon {
+  width: var(--icon-default-width);
+  height: var(--icon-default-height);
+  background: url('/public/images/facebook_icon.svg') no-repeat;
+  background-size: contain;
+}
+
+.linkedin-icon {
+  width: var(--icon-default-width);
+  height: var(--icon-default-height);
+  background: url('/public/images/linkedin_icon.svg') no-repeat;
+  background-size: contain;
+}
+
+.twitter-icon {
+  width: var(--icon-default-width);
+  height: var(--icon-default-height);
+  background: url('/public/images/twitter_icon.svg') no-repeat;
+  background-size: contain;
+}
+
+.instagram-icon {
+  width: var(--icon-default-width);
+  height: var(--icon-default-height);
+  background: url('/public/images/instagram_icon.svg') no-repeat;
+  background-size: contain;
+}
+
+.phone-icon {
+  width: var(--icon-default-width);
+  height: var(--icon-default-height);
+  background: url('/public/images/phone_icon.svg') no-repeat;
+  background-size: contain;
+}
+
+.email-icon {
+  width: var(--icon-default-width);
+  height: var(--icon-default-height);
+  background: url('/public/images/email_icon.svg') no-repeat;
+  background-size: contain;
+}
+
+.arrow-icon {
+  width: var(--icon-default-width);
+  height: var(--icon-default-height);
+  background: url('/public/images/arrow.svg') no-repeat;
+  background-size: contain;
+}

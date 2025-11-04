@@ -1,0 +1,61 @@
+.input input {
+  background-color: rgb(255 255 255 / 12%);
+  width: 100%;
+  font-size: 12px;
+  color: rgb(255 255 255 / 60%);
+  border: 1px solid rgb(255 255 255 / 20%);
+  border-radius: 4px;
+  padding: 10px 12px;
+  transition: border 0.3s ease;
+}
+
+.input input:focus {
+  outline: none;
+  border: 1px solid rgb(255 255 255 / 40%);
+}
+
+.input-with-button {
+  position: relative;
+}
+
+.input-with-button input {
+  padding-right: calc(12px + var(--icon-default-width) + 6px);
+}
+
+.input-with-button button {
+  position: absolute;
+  background: url('/public/images/full_arrow.svg');
+  width: var(--icon-default-width);
+  height: var(--icon-default-height);
+  top: 50%;
+  right: 14px;
+  transform: translateY(-50%);
+}
+
+.checkbox input[type='checkbox'] {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ddd;
+  border-radius: 3px;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+
+.checkbox input[type='checkbox']:checked {
+  background-color: var(--color-soft-blue);
+  border-color: var(--color-soft-blue);
+}
+
+.checkbox input[type='checkbox']:checked::before {
+  content: '✓';
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

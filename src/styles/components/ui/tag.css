@@ -1,0 +1,18 @@
+.tag {
+  padding: 6px 16px;
+  border: 1px solid var(--color-gray-400);
+  border-radius: 4px;
+  transition:
+    color 0.3s ease,
+    background 0.3s ease;
+}
+
+.tag::before {
+  content: '#';
+}
+
+.tag:hover {
+  cursor: pointer;
+  background: var(--color-soft-blue);
+  color: var(--color-white);
+}

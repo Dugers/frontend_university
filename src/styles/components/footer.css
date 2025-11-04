@@ -1,0 +1,138 @@
+/* stylelint-disable selector-max-compound-selectors */
+/* stylelint-disable selector-max-combinators */
+/* stylelint-disable selector-max-class */
+.footer {
+  color: var(--color-white);
+  background-color: #1e212c;
+
+  .footer__main {
+    border-bottom: 1px solid transparent;
+    background: linear-gradient(
+        to right,
+        rgb(218 219 221 / 0%) 0%,
+        rgb(218 219 221 / 50%) 12%,
+        rgb(218 219 221 / 100%) 52%,
+        rgb(218 219 221 / 50%) 88%,
+        rgb(218 219 221 / 0%) 100%
+      )
+      bottom / 100% 1px no-repeat;
+
+    .container {
+      padding: 80px 0;
+      display: flex;
+      gap: 0 80px;
+
+      .footer__title {
+        text-wrap: nowrap;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      .footer__brand {
+        max-width: 375px;
+
+        .footer__description {
+          margin-top: 25px;
+          opacity: 0.6;
+        }
+
+        .footer__social-networks {
+          margin-top: 40px;
+          display: flex;
+
+          .social-network {
+            margin-left: 20px;
+
+            div {
+              width: 24px;
+              height: 24px;
+            }
+          }
+
+          .social-network:first-child {
+            margin-left: 0;
+          }
+        }
+      }
+
+      .footer__nav {
+        .footer__nav__items {
+          margin-top: 12px;
+
+          .footer__nav__item {
+            text-wrap: nowrap;
+            opacity: 0.6;
+            margin-top: 8px;
+          }
+
+          .footer__nav__item:first-child {
+            margin-top: 0;
+          }
+        }
+      }
+
+      .footer__contacts {
+        .contacts {
+          margin-top: 12px;
+
+          .footer__contact {
+            margin-top: 8px;
+          }
+
+          .footer__contact:first-child {
+            margin-top: 0;
+          }
+        }
+      }
+
+      .footer__newsletter {
+        .input {
+          margin-top: 24px;
+        }
+
+        .footer__newsletter__description {
+          margin-top: 12px;
+          font-size: 8px;
+        }
+      }
+    }
+  }
+
+  .footer__secondary {
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 0;
+
+      .footer__partners {
+        display: flex;
+        gap: 24px;
+      }
+
+      .go-top {
+        display: flex;
+        align-items: flex-end;
+        gap: 16px;
+
+        .go-top__label {
+          text-transform: uppercase;
+        }
+
+        .go-top__button {
+          width: 40px;
+          height: 40px;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .arrow-icon {
+            width: 24px;
+            height: 24px;
+            transform: rotate(180deg);
+          }
+        }
+      }
+    }
+  }
+}
